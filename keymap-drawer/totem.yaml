@@ -11,17 +11,17 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LCTRL}
+  - {t: A, h: LEFT WIN}
   - {t: S, h: LALT}
-  - {t: D, h: LSHFT}
-  - {t: F, h: LEFT GUI}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LEFT SHIFT}
   - G
   - H
-  - {t: J, h: RIGHT GUI}
-  - {t: K, h: RSHFT}
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: RCTRL}
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: RCTRL}
-  - TAB
+  - ESCAPE
   - Z
   - X
   - C
@@ -34,12 +34,51 @@ layers:
   - {t: /, h: '&comment'}
   - {t: '''', h: '"'}
   - Digits
-  - {t: ESC, h: Navigation}
+  - Shift
   - SPACE
   - RET
-  - {t: ESC, h: SYSTEM}
+  - {t: BACK SPACE, h: BACK SPACE}
   - Digits
-  Navigation:
+  Digits:
+  - '|'
+  - $
+  - '{'
+  - '}'
+  - '&press_two_keys GREATER_THAN EQUAL'
+  - +
+  - '7'
+  - '8'
+  - '9'
+  - ;
+  - {t: '!', h: LCTRL}
+  - {t: '@', h: LEFT ALT}
+  - {t: (, h: LSHFT}
+  - {t: ), h: Shift}
+  - '&press_two_keys MINUS GREATER_THAN'
+  - '='
+  - '4'
+  - '5'
+  - '6'
+  - '*'
+  - {t: ▽, type: trans}
+  - '&'
+  - LCTRL
+  - {t: '[', h: <}
+  - {t: ']', h: '>'}
+  - '&press_two_keys LESS_THAN EQUAL'
+  - '-'
+  - '1'
+  - '2'
+  - '3'
+  - .
+  - /
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - {t: ▽, type: trans}
+  Shift:
   - {t: ▽, type: trans}
   - Sft+Gui+ 3
   - Sft+Gui+ 4
@@ -78,45 +117,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Digits:
-  - '|'
-  - $
-  - '{'
-  - '}'
-  - '&press_two_keys GREATER_THAN EQUAL'
-  - +
-  - '7'
-  - '8'
-  - '9'
-  - ;
-  - {t: '!', h: LCTRL}
-  - {t: '@', h: LEFT ALT}
-  - {t: (, h: LSHFT}
-  - {t: ), h: Navigation}
-  - '&press_two_keys MINUS GREATER_THAN'
-  - '='
-  - '4'
-  - '5'
-  - '6'
-  - '*'
-  - {t: ▽, type: trans}
-  - '&'
-  - LCTRL
-  - {t: '[', h: <}
-  - {t: ']', h: '>'}
-  - '&press_two_keys LESS_THAN EQUAL'
-  - '-'
-  - '1'
-  - '2'
-  - '3'
-  - .
-  - /
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
   SYSTEM:
   - F1
   - F2
@@ -154,7 +154,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [16, 17]

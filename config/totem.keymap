@@ -252,6 +252,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
+
+            label = "Fun";
         };
 
         GAMING {
@@ -261,6 +263,8 @@
 &kp LCTRL  &kp LSHFT     &kp A         &kp S         &kp D         &kp V        &trans     &trans             &trans  &trans  &trans  &trans
                                        &kp ESC       &kp G         &kp SPACE    &kp ENTER  &kp RIGHT_CONTROL  &to 0
             >;
+
+            label = "Gaming";
         };
     };
 };

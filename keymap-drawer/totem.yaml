@@ -37,7 +37,7 @@ layers:
   - {t: TAB, h: Nav}
   - SPACE
   - RET
-  - {t: BACK SPACE, h: Digits}
+  - {t: BACK SPACE, h: Fun}
   - '-'
   Nav:
   - {t: ▽, type: trans}
@@ -78,6 +78,45 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
+  Digits:
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '*'
+  - (
+  - )
+  - KP EQUAL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - '*'
+  - '~'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '-'
+  - '1'
+  - '2'
+  - '3'
+  - .
+  - +
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - {t: ▽, type: trans}
   SYSTEM:
   - F1
   - F2
@@ -116,45 +155,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Digits:
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '*'
-  - '8'
-  - '9'
-  - ;
-  - {t: '!', h: LCTRL}
-  - {t: '@', h: LEFT ALT}
-  - {t: (, h: LSHFT}
-  - {t: ), h: Nav}
-  - '&press_two_keys MINUS GREATER_THAN'
-  - '='
-  - '4'
-  - '5'
-  - '6'
-  - '*'
-  - {t: ▽, type: trans}
-  - '&'
-  - LCTRL
-  - {t: '[', h: <}
-  - {t: ']', h: '>'}
-  - '&press_two_keys LESS_THAN EQUAL'
-  - '-'
-  - '1'
-  - '2'
-  - '3'
-  - .
-  - /
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '0', type: held}
   - {t: ▽, type: trans}
   Fun:
   - {t: ▽, type: trans}
@@ -242,6 +242,6 @@ combos:
 - p: [13, 12]
   k: {t: LEFT SHIFT, h: sticky}
 - p: [32, 37]
-  k: {t: SYSTEM, h: toggle}
+  k: {t: Digits, h: toggle}
 - p: [11, 12, 13]
   k: CAPS WORD

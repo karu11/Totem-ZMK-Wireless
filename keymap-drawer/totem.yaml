@@ -37,7 +37,7 @@ layers:
   - {t: TAB, h: Nav}
   - SPACE
   - RET
-  - {t: BACK SPACE, h: Fun}
+  - {t: BACK SPACE, h: Digits}
   - '-'
   Nav:
   - {t: ▽, type: trans}
@@ -115,7 +115,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - {t: '0', type: held}
   - {t: ▽, type: trans}
   SYSTEM:
   - F1

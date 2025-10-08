@@ -37,7 +37,7 @@ layers:
   - {t: TAB, h: Nav}
   - SPACE
   - RET
-  - {t: BACK SPACE, h: Digits}
+  - {t: BACK SPACE, h: Sym}
   - '-'
   Nav:
   - {t: ▽, type: trans}
@@ -78,7 +78,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
-  Digits:
+  Sym:
   - '!'
   - '@'
   - '#'
@@ -95,9 +95,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '4'
-  - '5'
-  - '6'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '*'
   - '~'
   - {t: ▽, type: trans}
@@ -105,19 +105,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
-  - '1'
-  - '2'
-  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - .
   - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '0', type: held}
-  - {t: ▽, type: trans}
-  SYSTEM:
+  - {type: held}
+  - {t: codesmith, h: toggle}
+  Func:
   - F1
   - F2
   - F3
@@ -242,6 +242,6 @@ combos:
 - p: [13, 12]
   k: {t: LEFT SHIFT, h: sticky}
 - p: [32, 37]
-  k: {t: Digits, h: toggle}
+  k: {t: Sym, h: toggle}
 - p: [11, 12, 13]
   k: CAPS WORD

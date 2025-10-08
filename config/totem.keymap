@@ -226,17 +226,17 @@
         };
 
         digits {
-            label = "Digits";
+            label = "Sym";
             bindings = <
            &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_EQUAL
-           &trans           &trans  &trans    &trans      &trans         &trans     &kp N4        &kp N5                &kp N6                 &kp KP_MULTIPLY
-&kp TILDE  &trans           &trans  &trans    &trans      &trans         &kp MINUS  &kp N1        &kp N2                &kp N3                 &kp PERIOD       &kp PLUS
-                                    &trans    &trans      &trans         &trans     &kp N0        &trans
+           &trans           &trans  &trans    &trans      &trans         &trans     &trans        &trans                &trans                 &kp KP_MULTIPLY
+&kp TILDE  &trans           &trans  &trans    &trans      &trans         &trans     &trans        &trans                &trans                 &kp PERIOD       &kp PLUS
+                                    &trans    &trans      &trans         &trans     &trans        &to 0
             >;
         };
 
         sim_layer {
-            label = "SYSTEM";
+            label = "Func";
             bindings = <
                 &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6        &kp F7        &kp F8      &kp F9      &kp F10
                 &trans        &trans        &trans        &kp F23       &kp F24         &kp C_MUTE    &kp C_PP      &trans      &trans      &trans

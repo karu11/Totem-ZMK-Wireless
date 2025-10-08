@@ -31,7 +31,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: '&comment'}
+  - /
   - {t: '''', h: '"'}
   - {t: DEL, h: LCTRL}
   - {t: TAB, h: Nav}

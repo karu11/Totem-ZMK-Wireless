@@ -217,7 +217,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LCTRL
-  - G
+  - LSHFT
   - A
   - S
   - D
@@ -229,11 +229,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ESC
-  - LEFT SHIFT
+  - G
   - SPACE
   - ENTER
+  - RIGHT CONTROL
   - {t: codesmith, h: toggle}
-  - {t: ▽, type: trans}
 combos:
 - p: [16, 17]
   k: BACK SPACE

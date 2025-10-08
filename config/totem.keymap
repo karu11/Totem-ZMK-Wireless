@@ -256,10 +256,10 @@
 
         GAMING {
             bindings = <
-           &kp NUMBER_4  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp R        &trans     &trans  &trans  &trans  &trans
-           &kp NUMBER_5  &kp Q         &kp W         &kp E           &kp F        &trans     &trans  &trans  &trans  &trans
-&kp LCTRL  &kp G         &kp A         &kp S         &kp D           &kp V        &trans     &trans  &trans  &trans  &trans  &trans
-                                       &kp ESC       &kp LEFT_SHIFT  &kp SPACE    &kp ENTER  &to 0   &trans
+           &kp NUMBER_4  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp R        &trans     &trans             &trans  &trans  &trans
+           &kp NUMBER_5  &kp Q         &kp W         &kp E         &kp F        &trans     &trans             &trans  &trans  &trans
+&kp LCTRL  &kp LSHFT     &kp A         &kp S         &kp D         &kp V        &trans     &trans             &trans  &trans  &trans  &trans
+                                       &kp ESC       &kp G         &kp SPACE    &kp ENTER  &kp RIGHT_CONTROL  &to 0
             >;
         };
     };

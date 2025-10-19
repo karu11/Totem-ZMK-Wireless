@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/bukharovsi
     - name: janpfischer
       url-base: https://github.com/janpfischer
+    - name: joaopedropio                          # <--- add these
+      url-base: https://github.com/joaopedropio   # <---
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -22,5 +24,8 @@ manifest:
     - name: zmk-dongle-screen
       remote: janpfischer
       revision: main
+    - name: snake-module                          # <--- and these
+      remote: joaopedropio                        # <---
+      revision: master                            # <---
   self:
     path: config

@@ -15,3 +15,6 @@ config SHIELD_TOTEM_DONGLE
 
 config SHIELD_TOTEM_DONGLE_PROSPECTOR
 	def_bool $(shields_list_contains,totem_dongle_prospector)
+
+config SHIELD_TOTEM_DONGLE_SNAKE
+	def_bool $(shields_list_contains,totem_dongle_snake)

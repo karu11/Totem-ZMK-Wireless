@@ -56,7 +56,10 @@ include:
     format: dongle
     shield: totem_dongle dongle_screen
     artifact-name: totem_qwerty_dongle_yads
-
+  - board: nice_nano_v2                                  # <--- add these
+    shield: totem_dongle_snake snake_adapter  # <---
+    artifact-name: snake_dongle        
+    
 #  # QWERTY BT
 #  - board: nice_nano_v2
 #    shield: charybdis_left

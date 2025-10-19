@@ -26,6 +26,6 @@ manifest:
       revision: main
     - name: snake-module                          # <--- and these
       remote: joaopedropio                        # <---
-      revision: main                            # <---
+      revision: master                            # <---
   self:
     path: config

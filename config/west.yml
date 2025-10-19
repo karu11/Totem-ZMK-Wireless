@@ -24,8 +24,8 @@ manifest:
     - name: zmk-dongle-screen
       remote: janpfischer
       revision: main
-   # - name: snake-module                          # <--- and these
-    #  remote: joaopedropio                        # <---
-     # revision: master                            # <---
+     - name: snake-module                          # <--- and these
+      remote: joaopedropio                        # <---
+      revision: master                            # <---
   self:
     path: config

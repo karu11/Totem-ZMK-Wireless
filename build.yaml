@@ -60,7 +60,7 @@ include:
     keymap: qwerty
     format: dongle
     shield: totem_dongle_snake snake_adapter  # <---
-    artifact-name: snake_dongle        
+    artifact-name: totem_qwerty_dongle_snake     
     
 #  # QWERTY BT
 #  - board: nice_nano_v2

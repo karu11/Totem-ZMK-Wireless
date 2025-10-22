@@ -1,7 +1,7 @@
 # Copyright (c) 2023 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_TOTEM_DONGLE_DISPLAY
+config SHIELD_TOTEM_DONGLE_YADS
 	def_bool $(shields_list_contains,dongle_display)
 
 config SHIELD_TOTEM_LEFT

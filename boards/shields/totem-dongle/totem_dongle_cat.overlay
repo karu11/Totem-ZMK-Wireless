@@ -3,6 +3,7 @@
 / {
     chosen {
         zmk,kscan = &mock_kscan;
+        zephyr,display = &oled;
     };
 
     mock_kscan: kscan_1 {
@@ -11,11 +12,15 @@
         rows = <0>;
         events = <0>;
     };
+};
 
-// only required if the dongle uses a different board than the peripherals
-// /delete-node/ &default_kscan;   
+/delete-node/ &default_kscan;   // only required if the dongle uses a 
+                                // different board than the peripherals
 
-oled: ssd1306@3c {
+&xiao_i2c {
+    status = "okay";
+    
+    oled: ssd1306@3c {
         compatible = "solomon,ssd1306fb";
         reg = <0x3c>;
         width = <128>;
@@ -29,10 +34,4 @@ oled: ssd1306@3c {
         inversion-on;
         prechargep = <0x22>;
     };
-
-/ {
-    chosen {
-        zephyr,display = &ssd1306;
-    };
-
 };

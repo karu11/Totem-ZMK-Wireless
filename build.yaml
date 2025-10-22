@@ -64,8 +64,8 @@ include:
   - board: seeeduino_xiao_ble
     keymap: qwerty
     format: dongle
-    shield: totem_dongle_display dongle_display
-    artifact-name: totem_qwerty_dongle_display
+    shield: totem_dongle_cat dongle_display
+    artifact-name: totem_qwerty_dongle_cat
     
   - board: nice_nano_v2                                  # <--- add these
     keymap: qwerty

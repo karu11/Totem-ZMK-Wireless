@@ -3,7 +3,6 @@
 / {
     chosen {
         zmk,kscan = &mock_kscan;
-        zephyr,display = &ssd1306;
     };
 
     mock_kscan: kscan_1 {
@@ -30,5 +29,11 @@ oled: ssd1306@3c {
         inversion-on;
         prechargep = <0x22>;
     };
+
+/ {
+    chosen {
+        zephyr,display = &ssd1306;
+    };
+};
 
 };

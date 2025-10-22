@@ -61,11 +61,11 @@ include:
     shield: totem_dongle dongle_screen
     artifact-name: totem_qwerty_dongle_yads
 
-  #- board: seeeduino_xiao_ble
-  #  keymap: qwerty
-  #  format: dongle
-  #  shield: totem_dongle_cat dongle_display
-  #  artifact-name: totem_qwerty_dongle_cat
+  - board: seeeduino_xiao_ble
+    keymap: qwerty
+    format: dongle
+    shield: totem_dongle_cat dongle_display
+    artifact-name: totem_qwerty_dongle_cat
     
   - board: nice_nano_v2                                  # <--- add these
     keymap: qwerty

@@ -202,7 +202,7 @@ layers:
   - '3'
   - '4'
   - TAB
-  - {t: ▽, type: trans}
+  - X
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -211,19 +211,19 @@ layers:
   - W
   - E
   - R
+  - T
+  - Y
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT SHIFT
+  - LCTRL
   - Z
   - A
   - S
   - D
   - F
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - N
+  - M
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

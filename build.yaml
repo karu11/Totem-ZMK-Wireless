@@ -17,6 +17,8 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
+
+# boards
 include:
   - board: seeeduino_xiao_ble
     shield: totem_left
@@ -28,45 +30,39 @@ include:
     keymap: qwerty
     format: bt
     artifact-name: totem_qwerty_right
-
-
+    
+# dongles
   - board: seeeduino_xiao_ble
     shield: totem_left
     keymap: qwerty
     format: dongle
     artifact-name: totem_qwerty_dongle_left
-    
   - board: seeeduino_xiao_ble
     shield: totem_right
     keymap: qwerty
     format: dongle
     artifact-name: totem_qwerty_dongle_right
-    
   - board: seeeduino_xiao_ble
     shield: totem_dongle
     keymap: qwerty
     format: dongle
     artifact-name: totem_qwerty_dongle
-    
   - board: seeeduino_xiao_ble
     shield: totem_dongle_prospector prospector_adapter
     keymap: qwerty
     format: dongle
     snippet: studio-rpc-usb-uart
     artifact-name: totem_qwerty_dongle_prospector
-    
   - board: seeeduino_xiao_ble
     keymap: qwerty
     format: dongle
     shield: totem_dongle dongle_screen
     artifact-name: totem_qwerty_dongle_yads
-
   - board: nice_nano_v2
     keymap: qwerty
     format: dongle
     shield: totem_dongle_cat dongle_display
     artifact-name: totem_qwerty_dongle_cat
-    
   - board: nice_nano_v2                                 
     keymap: qwerty
     format: dongle
@@ -78,7 +74,6 @@ include:
     shield: settings_reset
     format: reset
     artifact-name: firmware_reset_totem
-
   - board: nice_nano_v2
     shield: settings_reset
     format: reset

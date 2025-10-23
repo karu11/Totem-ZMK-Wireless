@@ -216,7 +216,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LCTRL
+  - LEFT CONTROL
   - Z
   - A
   - S
@@ -229,7 +229,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - G
-  - LCTRL
+  - LEFT SHIFT
   - SPACE
   - ENTER
   - ESC

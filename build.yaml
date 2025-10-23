@@ -18,7 +18,7 @@
 #
 ---
 
-# boards
+# wireless non-dongle totem
 include:
   - board: seeeduino_xiao_ble
     shield: totem_left
@@ -31,7 +31,7 @@ include:
     format: bt
     artifact-name: totem_qwerty_right
     
-# dongles
+# wireless with dongle
   - board: seeeduino_xiao_ble
     shield: totem_left
     keymap: qwerty

@@ -61,8 +61,8 @@ include:
   - board: nice_nano_v2
     keymap: qwerty
     format: dongle
-    shield: totem_dongle_cat dongle_display
-    artifact-name: totem_qwerty_dongle_cat
+    shield: totem_dongle_display dongle_display
+    artifact-name: totem_qwerty_dongle_display
   - board: nice_nano_v2                                 
     keymap: qwerty
     format: dongle
@@ -77,4 +77,4 @@ include:
   - board: nice_nano_v2
     shield: settings_reset
     format: reset
-    artifact-name: firmware_reset_snake_cat_dongle
+    artifact-name: firmware_reset_snake_display_dongle

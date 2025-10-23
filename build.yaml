@@ -35,12 +35,12 @@ include:
     keymap: qwerty
     format: dongle
     artifact-name: totem_qwerty_dongle_left
+    
   - board: seeeduino_xiao_ble
     shield: totem_right
     keymap: qwerty
     format: dongle
     artifact-name: totem_qwerty_dongle_right
-
     
   - board: seeeduino_xiao_ble
     shield: totem_dongle
@@ -67,10 +67,10 @@ include:
     shield: totem_dongle_cat dongle_display
     artifact-name: totem_qwerty_dongle_cat
     
-  - board: nice_nano_v2                                  # <--- add these
+  - board: nice_nano_v2                                 
     keymap: qwerty
     format: dongle
-    shield: totem_dongle_snake snake_adapter  # <---
+    shield: totem_dongle_snake snake_adapter  
     artifact-name: totem_qwerty_dongle_snake     
     
   # Firmware Reset
@@ -78,3 +78,8 @@ include:
     shield: settings_reset
     format: reset
     artifact-name: firmware_reset_totem
+
+  - board: nice_nano_v2
+    shield: settings_reset
+    format: reset
+    artifact-name: firmware_reset_snake_cat_dongle

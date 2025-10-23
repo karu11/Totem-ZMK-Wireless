@@ -61,7 +61,7 @@ include:
     shield: totem_dongle dongle_screen
     artifact-name: totem_qwerty_dongle_yads
 
-  - board: seeeduino_xiao_ble
+  - board: nice_nano_v2
     keymap: qwerty
     format: dongle
     shield: totem_dongle_cat dongle_display

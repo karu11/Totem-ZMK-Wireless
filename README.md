@@ -1,3 +1,3 @@
-<h1>Karue's Wireless Totem ZMK Config</h1>
+<h1>Wireless Totem ZMK Config</h1>
 
-hello world :O)
+Tried to include every ZMK dongle in this repository.

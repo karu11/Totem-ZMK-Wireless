@@ -79,11 +79,6 @@
             bindings = <&to 2>;
             key-positions = <32 37>;
         };
-
-        caps-words {
-            bindings = <&caps_word>;
-            key-positions = <11 12 13>;
-        };
     };
 
     macros {

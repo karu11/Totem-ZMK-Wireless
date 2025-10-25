@@ -282,5 +282,3 @@ combos:
   k: {t: LEFT SHIFT, h: sticky}
 - p: [32, 37]
   k: {t: Sym, h: toggle}
-- p: [11, 12, 13]
-  k: CAPS WORD

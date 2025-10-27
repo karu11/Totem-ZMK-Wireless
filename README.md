@@ -26,6 +26,8 @@ Tried to include every ZMK dongle in this repository.
 4. **Flash Your Keyboard**
    - Put your board into UF2 bootloader mode (usually by double-tapping the reset button).
    - Drag and drop the `.uf2` file onto the mounted drive.
+  
+### Dongles - If you feel like the dongle is no longer paired with the totems, use the reset files related to your dongle to clean slate your dongle and do the same with your totem using the totem reset file. then upload the files, dongle first then left and right units.
 
    
     <img src="https://raw.githubusercontent.com/karuetech/Totem-ZMK-Wireless-Firmware/bf551d05cbb7dbbcb7ba3f47e92db24be0b34730/keymap-drawer/totem.svg">

@@ -13,10 +13,10 @@ Tried to include every ZMK dongle in this repository. Thanks to Eiga for the ref
 
 ## Keymap Editing
    -  use the [ZMK Keymap Editor](https://nickcoutsos.github.io/keymap-editor/):
-     - Map your repository to the editor to see the current settings
-     - Make changes on the site and save
-     - your repository will be compiling the build with your new configuration
-     - read below on flashing your keyboard
+   - Map your repository to the editor to see the current settings
+   - Make changes on the site and save
+   - your repository will be compiling the build with your new configuration
+   - read below on flashing your keyboard
 
 ## Dongle Flashing
    - Turn all devices off

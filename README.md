@@ -13,6 +13,7 @@ Tried to include every ZMK dongle in this repository.
 
 2. **Edit Your Keymap**
    -  use the [ZMK Keymap Editor](https://nickcoutsos.github.io/keymap-editor/):
+     - Map your repository to the editor to see the current settings
      - Make changes on the site and save
      - your repository will be compiling the build with your new configuration
      - download the firmware when complete

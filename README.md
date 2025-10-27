@@ -1,6 +1,6 @@
 <h1>Wireless Totem ZMK Config</h1>
 
-Tried to include every ZMK dongle in this repository.
+Tried to include every ZMK dongle in this repository. Thanks to Eiga for the reference and all the dongle creators.
 
 
 ### Steps

@@ -223,10 +223,10 @@
         digits {
             label = "Sym";
             bindings = <
-           &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
-           &trans           &trans  &trans    &trans      &trans         &trans     &trans        &trans                &trans                 &kp STAR
-&kp TILDE  &trans           &trans  &trans    &trans      &trans         &trans     &trans        &trans                &trans                 &kp PERIOD  &kp PLUS
-                                    &trans    &trans      &trans         &trans     &trans        &to 0
+           &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp STAR  &kp LEFT_PARENTHESIS  &kp EQUAL
+           &trans           &trans  &trans    &trans      &trans         &trans     &trans         &trans    &trans                &kp STAR
+&kp TILDE  &trans           &trans  &trans    &trans      &trans         &trans     &trans         &trans    &trans                &kp PERIOD  &kp PLUS
+                                    &trans    &trans      &trans         &trans     &trans         &to 0
             >;
         };
 

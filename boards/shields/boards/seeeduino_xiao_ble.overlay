@@ -1,0 +1,3 @@
+&i2c0 {
+    label = "pro_micro_i2c";
+};

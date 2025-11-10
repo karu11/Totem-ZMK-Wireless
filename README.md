@@ -31,4 +31,4 @@ Tried to include every ZMK dongle in this repository. Thanks to Eiga for the ref
 > When using both Nice!Nano and Seeed XIAO microcontrollers, make sure you are flashing them with the correct files!
 
 
-<img alt="image" src="https://github.com/user-attachments/assets/a28723b1-9afe-4b1d-aac8-1d9bbecff9cb" />
+<img alt="image" src="https://raw.githubusercontent.com/karuetech/Totem-ZMK-Wireless-Firmware/ffaf042c13fc22c4818677a5e687694f89c7cd5b/keymap-drawer/totem.svg" />

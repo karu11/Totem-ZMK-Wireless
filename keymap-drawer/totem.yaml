@@ -71,7 +71,7 @@ layers:
   - '2'
   - '3'
   - {t: '*', h: toggle}
-  - CAPSLOCK
+  - \
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -277,8 +277,10 @@ combos:
 - p: [16, 17]
   k: BACK SPACE
 - p: [16, 17, 18]
-  k: Alt+ BACK SPACE
+  k: PRINT SCREEN
 - p: [13, 12]
   k: {t: LEFT SHIFT, h: sticky}
 - p: [32, 37]
   k: {t: Sym, h: toggle}
+- p: [1, 0]
+  k: ESCAPE

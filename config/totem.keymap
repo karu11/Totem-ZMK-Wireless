@@ -146,6 +146,16 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <18 19>;
         };
+
+        task {
+            bindings = <&kp LC(LA(DEL))>;
+            key-positions = <15 14 13>;
+        };
+
+        screengrab {
+            bindings = <&kp LC(LG(LEFT_SHIFT))>;
+            key-positions = <18 19 20>;
+        };
     };
 
     macros {

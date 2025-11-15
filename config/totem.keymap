@@ -14,8 +14,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
 
 #define Base        0
 #define Media       1
@@ -238,7 +236,7 @@
         Base {
             label = "Base";
             bindings = <
-            &kp Q        &kp W        &kp F          &kp P        &kp B        &kp J        &kp L       &kp U         &kp Y        &kp SEMI     &mo 4
+            &kp Q        &kp W        &kp E          &kp R        &kp T        &kp J        &kp L       &kp U         &kp Y        &kp SEMI     &mo 4
 &kp ESCAPE  &hm LSHFT A  &hm LCTRL R  &hm LMETA S    &hm LALT T   &kp G        &kp M        &hm RALT N  &hm RMETA E   &hm RCTRL I  &hm RSHFT O  &kp APOS
 &kp LPAR    &kp Z        &kp X        &kp C          &kp D        &kp V        &kp K        &kp H       &kp COMMA     &kp DOT      &kp SLASH    &kp RPAR
                                       &kp BACKSPACE  &lt 3 SPACE  &kp ENTER    &lt 6 SPACE  &lt 2 TAB   &lt 1 DELETE

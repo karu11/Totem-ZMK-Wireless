@@ -22,49 +22,49 @@
 include:
   - board: seeeduino_xiao_ble
     shield: totem_left
-    # keymap: qwerty
+    keymap: qwerty
     format: bt
     artifact-name: totem_qwerty_left
   - board: seeeduino_xiao_ble
     shield: totem_right
-    # keymap: qwerty
+    keymap: qwerty
     format: bt
     artifact-name: totem_qwerty_right
     
 # wireless with dongle
   - board: seeeduino_xiao_ble
     shield: totem_left
-    # keymap: qwerty
+    keymap: qwerty
     format: dongle
     artifact-name: totem_qwerty_dongle_left
   - board: seeeduino_xiao_ble
     shield: totem_right
-    # keymap: qwerty
+    keymap: qwerty
     format: dongle
     artifact-name: totem_qwerty_dongle_right
   - board: seeeduino_xiao_ble
     shield: totem_dongle
-    # keymap: qwerty
+    keymap: qwerty
     format: dongle
     artifact-name: totem_qwerty_dongle
   - board: seeeduino_xiao_ble
     shield: totem_dongle_prospector prospector_adapter
-    # keymap: qwerty
+    keymap: qwerty
     format: dongle
     snippet: studio-rpc-usb-uart
     artifact-name: totem_qwerty_dongle_prospector
   - board: seeeduino_xiao_ble
-    # keymap: qwerty
+    keymap: qwerty
     format: dongle
     shield: totem_dongle dongle_screen
     artifact-name: totem_qwerty_dongle_yads
   - board: nice_nano_v2
-    # keymap: qwerty
+    keymap: qwerty
     format: dongle
     shield: totem_dongle_display dongle_display
     artifact-name: totem_qwerty_dongle_display
   - board: nice_nano_v2                                 
-    # keymap: qwerty
+    keymap: qwerty
     format: dongle
     shield: totem_dongle_snake snake_adapter  
     artifact-name: totem_qwerty_dongle_snake     

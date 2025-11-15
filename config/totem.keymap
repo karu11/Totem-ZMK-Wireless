@@ -270,10 +270,10 @@
         Sym {
             label = "Sym";
             bindings = <
-            &kp EXCL  &kp AT   &kp HASH  &kp DOLLAR  &kp PERCENT    &trans    &kp END   &kp PG_UP  &kp LC(C)  &trans     &trans
-&kp ESCAPE  &trans    &trans   &trans    &trans      &trans         &kp CAPS  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp RIGHT_BRACE
-&kp LBKT    &trans    &kp DEL  &trans    &kp PG_DN   &trans         &trans    &kp HOME  &kp LT     &kp GT     &kp LC(F)  &kp RBKT
-                               &trans    &fsu        &trans         &trans    &trans    &trans
+            &kp EXCL  &kp AT   &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp EQUAL  &trans
+&kp ESCAPE  &trans    &trans   &trans    &trans      &trans         &kp CAPS   &kp LEFT       &kp DOWN      &kp UP                &kp RIGHT  &kp PLUS
+&kp LBKT    &trans    &kp DEL  &trans    &kp PG_DN   &trans         &trans     &kp HOME       &kp LT        &kp GT                &kp LC(F)  &kp RBKT
+                               &trans    &fsu        &trans         &trans     &trans         &trans
             >;
         };
 

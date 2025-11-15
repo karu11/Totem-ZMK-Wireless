@@ -281,8 +281,8 @@
             label = "Game";
             bindings = <
                   &kp NUMBER_5  &kp NUMBER_1  &kp N2     &kp NUMBER_3    &kp NUMBER_4    &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB           &kp NUMBER_6  &kp Q         &kp W      &kp E           &kp R           &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_CONTROL  &kp Z         &kp A         &kp S      &kp D           &kp F           &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_CONTROL  &kp NUMBER_6  &kp Q         &kp W      &kp E           &kp R           &trans  &trans  &trans  &trans  &trans  &trans
+&kp Z             &kp X         &kp A         &kp S      &kp D           &kp F           &trans  &trans  &trans  &trans  &trans  &trans
                                               &df TAB G  &kp LEFT_SHIFT  &kp SPACE       &trans  &trans  &to 0
             >;
         };

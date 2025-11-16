@@ -1,5 +1,5 @@
 layout:
-  rows: 41
+  num_keys: 41
 layers:
   Default:
   - Q

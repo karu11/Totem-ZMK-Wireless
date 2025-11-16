@@ -42,7 +42,7 @@ layers:
   - '-'
   - '-'
   - '-'
-  - '-'
+  - SPACE
   Nav:
   - {t: ▽, type: trans}
   - Sft+Gui+ 3

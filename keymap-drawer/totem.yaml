@@ -1,4 +1,5 @@
-layout: {zmk_keyboard: totem}
+layout:
+  rows: 41
 layers:
   Default:
   - Q

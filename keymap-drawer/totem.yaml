@@ -39,6 +39,8 @@ layers:
   - RET
   - {t: BACK SPACE, h: Sym}
   - '-'
+  - '-'
+  - '-'
   Nav:
   - {t: ▽, type: trans}
   - Sft+Gui+ 3

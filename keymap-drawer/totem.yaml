@@ -42,7 +42,7 @@ layers:
   - '-'
   - '-'
   - '-'
-  - SPACE
+  - {t: BACK SPACE, h: Sym}
   Nav:
   - {t: ▽, type: trans}
   - Sft+Gui+ 3
